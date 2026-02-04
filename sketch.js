@@ -69,7 +69,7 @@ window.addEventListener('scroll', () => {
 // Creating timeline + notches
   textFont('ohno-softie-variable');
   let topX = divWidth / 2;
-  let topY = divHeight * 0.1;
+  let topY = divHeight * 0.05;
   let botX = divWidth / 2;
   let botY = divHeight * 0.9;
   line(topX, topY, botX, botY);
@@ -103,7 +103,7 @@ pteroNames = [
   "pterodactylus",
   "guidraco",
   "pteranodon",
-  "tapejara",
+  "quetzalcoatlus",
   "nemicolopterus",
   "quetzalcoatlus",
   "dsungaripterus"

@@ -19,7 +19,7 @@ var pteroSize = 3;
 
 renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize(window.innerWidth/pteroSize, window.innerHeight/pteroSize);
-camera.position.set(0,3,30);
+camera.position.set(0,4,30);
 
 renderer.render( scene, camera );
 

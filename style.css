@@ -60,10 +60,10 @@
     height: 300vh;
     grid-template-columns: repeat(var(--col), [col-start] 1fr, minmax(0, 1fr));
     grid-template-rows: repeat(var(--row), [row-start] 1fr);
-    border: 2px solid rgb(165, 87, 87);
+    /* border: 2px solid rgb(165, 87, 87); */
     gap: 4px;
     margin: 0 auto 3vh;
-    padding-bottom: 30vh;
+    padding-bottom: 80vh;
     overflow-x: hidden;
     overflow-y: hidden;
 

@@ -17,7 +17,7 @@ renderer.setClearColor( 0x000000, 0 ); // the default
 
 var pteroSize = 1.3;
 
-renderer.setPixelRatio( 2 );
+renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize(window.innerWidth/pteroSize, window.innerHeight/pteroSize);
 camera.position.set(5,7,30);
 camera.aspect = 2;   // width : height = 1 : 2
@@ -49,10 +49,10 @@ ptero.rotation.set (0,0,0);
 scene.add(ptero);
 
 //pointlight (color, strength, distance where 0 is infinte)
-const pointLight = new THREE.PointLight(0xCDE6AC, 1250, 0);
+const pointLight = new THREE.PointLight(0xFFA8A8, 1190, 0);
 pointLight.position.set(1,2,20);
 
-const ambLight = new THREE.AmbientLight(0x9082C2, 5);
+const ambLight = new THREE.AmbientLight(0x9082C2, 4);
 
 scene.add(pointLight, ambLight); //, pLightHelper
 

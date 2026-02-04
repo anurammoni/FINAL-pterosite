@@ -98,7 +98,7 @@ let targetRotX = 0, targetRotY = 0;
   renderer.render( scene, camera );
 
  targetRotY = mouseX * Math.PI * 0.1 + 1.4;  // left-right
-  targetRotX = mouseY * Math.PI * 0.3 -0.5;  // up-down
+  targetRotX = mouseY * Math.PI * 0.3 -0.3;  // up-down
 
   // Smooth easing
   ptero.rotation.y += (targetRotY - ptero.rotation.y) * pteroSize/10;
