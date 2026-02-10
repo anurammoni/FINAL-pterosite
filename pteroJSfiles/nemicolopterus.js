@@ -6,7 +6,7 @@ import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
 
 const scene = new THREE.Scene();
 
-const camera = new THREE.PerspectiveCamera(38 ,window.innerWidth/window.innerHeight, 1, 1000 );
+const camera = new THREE.PerspectiveCamera(35, window.innerWidth/window.innerHeight, 1, 1000 );
 
 const renderer = new THREE.WebGLRenderer(
   {

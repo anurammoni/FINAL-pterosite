@@ -52,9 +52,9 @@ scene.add(ptero);
 
 //pointlight (color, strength, distance where 0 is infinte)
 const pointLight = new THREE.PointLight(0xD3EDE2, 950, 0);
-pointLight.position.set(1,2,23);
+pointLight.position.set(1,2,24);
 
-const ambLight = new THREE.AmbientLight(0x9385D4, 3.3);
+const ambLight = new THREE.AmbientLight(0x9385D4, 3.9);
 
 scene.add(pointLight, ambLight); //, pLightHelper
 

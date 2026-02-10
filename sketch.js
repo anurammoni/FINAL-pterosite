@@ -2,7 +2,7 @@
 
 var divWidth;
 var divHeight;
-var notchCount = 18;
+var notchCount = 19;
 var pteroNames = [];
 let pteroCSV;
 let font;
@@ -69,16 +69,17 @@ window.addEventListener('scroll', () => {
 // Creating timeline + notches
   textFont('ohno-softie-variable');
   let topX = divWidth / 2;
-  let topY = divHeight * 0.05;
+  let topY = divHeight * 0.075;
   let botX = divWidth / 2;
-  let botY = divHeight * 0.9;
+  let botY = divHeight * 0.85;
   line(topX, topY, botX, botY);
   for (var i=0; i <= notchCount; i++) {
         line(topX-50, topY+i*(botY-topY)/notchCount, topX+50, topY+i*(botY-topY)/notchCount);
         push();
           fill(134, 62, 78);
           noStroke();
-          text(250-i*10+ ' MYA',topX-80,topY+i*(botY-topY)/notchCount);
+      if (i == 0){ text ('250 Million Years Ago (MYA)', topX-80, topY+i*(botY-topY)/notchCount)
+      } else { text(250-i*10+ ' MYA',topX-80,topY+i*(botY-topY)/notchCount)};
         pop();
   console.log(i);
   }

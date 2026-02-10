@@ -90,8 +90,8 @@ let targetRotX = 0, targetRotY = 0;
   requestAnimationFrame (animate);
   renderer.render( scene, camera );
 
- targetRotY = mouseX * Math.PI * 0.2 + 2.2;  // left-right
-  targetRotX = mouseY * Math.PI * 0.2 -0.3;  // up-down
+ targetRotY = mouseX * Math.PI * 0.2 + 2.1;  // left-right
+  targetRotX = mouseY * Math.PI * 0.2 -0.8;  // up-dow5
 
 //   ptero.rotation.z = 0.1;
 
