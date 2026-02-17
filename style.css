@@ -69,11 +69,12 @@
   color: rgba(134, 62, 78, 0.771);
   font-size: 145%;
   letter-spacing: 0.04em;
+  text-align: center;
 font-family: "ohno-softie-variable", sans-serif;
 font-variation-settings: "wght" 400;
-  line-height: 1.1em;
-  margin: -10vh 21vw 5vh;
-  width: 60vw;
+  line-height: 1.3em;
+  margin: -10vh 25vw 5vh;
+  width: 48vw;
   text-indent: -0.9em;
       /* border: 2px solid rgb(165, 87, 87); */
 }
